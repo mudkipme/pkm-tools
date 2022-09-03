@@ -1,26 +1,15 @@
 {
-  "name": "memos-tools",
+  "name": "@mudkipme/memos-tools",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "tsx ./src/index.ts"
+    "notion2memos": "pnpm --filter @mudkipme/notion2memos run start"
   },
   "keywords": [],
   "author": "",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "@notionhq/client": "^2.1.1",
-    "convict": "^6.2.3",
-    "dayjs": "^1.11.5",
-    "js-yaml": "^4.1.0",
-    "notion-to-md": "^2.5.5",
-    "undici": "^5.10.0"
-  },
   "devDependencies": {
-    "@types/convict": "^6.1.1",
-    "@types/js-yaml": "^4.0.5",
-    "tsx": "^3.9.0",
     "typescript": "^4.8.2"
   }
 }
