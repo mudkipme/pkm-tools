@@ -1,8 +1,9 @@
 {
-  "name": "@mudkipme/notion2memos",
+  "name": "@mudkipme/trello2lark",
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "type": "module",
   "main": "src/index.ts",
   "scripts": {
     "start": "tsx ./src/index.ts"
@@ -11,11 +12,10 @@
   "author": "mudkipme",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@notionhq/client": "^2.2.7",
+    "@larksuiteoapi/node-sdk": "^1.19.0",
     "convict": "^6.2.4",
     "dayjs": "^1.11.9",
     "js-yaml": "^4.1.0",
-    "notion-to-md": "^2.5.5",
     "undici": "^5.22.1"
   },
   "devDependencies": {
